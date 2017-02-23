@@ -1,5 +1,8 @@
 # NeoJoints
 Neopixel Joints, millable on the Othermill
 
-Future home of NeoJoints from https://github.com/todbot/Mill-a-Week/tree/master/NeoJoints
+Originally from "Mill-a-Week": https://github.com/todbot/Mill-a-Week
+
+![](https://c1.staticflickr.com/1/453/17888242663_c46d147722_n.jpg)
+
 
