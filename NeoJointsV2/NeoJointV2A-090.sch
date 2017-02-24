@@ -489,6 +489,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="JP3" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="U$1" library="todstuff" deviceset="LED_STRIP_3P" device=""/>
 <part name="U$2" library="todstuff" deviceset="LED_STRIP_3P" device=""/>
+<part name="JP4" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -507,8 +508,12 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="VALUE" x="27.94" y="83.82" size="1.778" layer="96"/>
 <attribute name="NAME" x="27.686" y="89.408" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="U$1" gate="G$1" x="43.18" y="104.14"/>
+<instance part="U$1" gate="G$1" x="50.8" y="104.14"/>
 <instance part="U$2" gate="G$1" x="27.94" y="104.14" rot="MR0"/>
+<instance part="JP4" gate="G$1" x="60.96" y="83.82" smashed="yes" rot="R180">
+<attribute name="VALUE" x="63.5" y="88.9" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="63.754" y="83.058" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -522,19 +527,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="U$1" gate="G$1" pin="A"/>
 <pinref part="U$2" gate="G$1" pin="A"/>
-<wire x1="33.02" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="B" class="0">
-<segment>
-<wire x1="38.1" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
-<label x="43.18" y="83.82" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="B"/>
-<pinref part="U$2" gate="G$1" pin="B"/>
-<wire x1="33.02" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="101.6" x2="45.72" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C" class="0">
@@ -546,7 +539,23 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <pinref part="U$1" gate="G$1" pin="C"/>
 <pinref part="U$2" gate="G$1" pin="C"/>
-<wire x1="33.02" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="106.68" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="B" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="B"/>
+<pinref part="U$1" gate="G$1" pin="B"/>
+<wire x1="33.02" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="43.18" y="83.82" size="1.778" layer="95"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
+<label x="48.26" y="83.82" size="1.778" layer="95"/>
+<wire x1="45.72" y1="83.82" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
