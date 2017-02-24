@@ -171,7 +171,7 @@
 <wire x1="11.3" y1="0" x2="22" y2="0" width="0" layer="49" style="shortdash"/>
 <wire x1="16.7" y1="5.2" x2="16.7" y2="-2.8" width="0.002540625" layer="49" style="shortdash"/>
 <wire x1="21" y1="11" x2="-6" y2="11" width="0.002540625" layer="49" style="longdash"/>
-<wire x1="5.5" y1="19" x2="5.5" y2="-3" width="0.002540625" layer="49" style="longdash"/>
+<wire x1="5.5" y1="19" x2="5.5" y2="-1" width="0.002540625" layer="49" style="longdash"/>
 <wire x1="5.4" y1="2.7" x2="-0.8" y2="17.6" width="0.002540625" layer="49" style="shortdash" curve="223.875648"/>
 <wire x1="-0.846025" y1="10.181828125" x2="27.899221875" y2="14.0172625" width="0.002540625" layer="49" style="dashdot"/>
 <wire x1="3.764740625" y1="5.16129375" x2="22.59783125" y2="7.674165625" width="0.002540625" layer="49" style="shortdash"/>

@@ -177,7 +177,7 @@
 <wire x1="5.460615625" y1="11.01256875" x2="22.311278125" y2="8.764209375" width="0.002540625" layer="49" style="shortdash"/>
 <wire x1="18.895365625" y1="3.624675" x2="0.062271875" y2="6.13754375" width="0.002540625" layer="49" style="shortdash"/>
 <wire x1="19.32533125" y1="14.87581875" x2="0.4922375" y2="17.388690625" width="0.002540625" layer="49" style="shortdash"/>
-<wire x1="-1.98190625" y1="19.537384375" x2="21.730909375" y2="-7.549553125" width="0" layer="48" style="shortdash"/>
+<wire x1="-1.98190625" y1="19.537384375" x2="21.730909375" y2="-7.549553125" width="0" layer="49" style="shortdash"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
