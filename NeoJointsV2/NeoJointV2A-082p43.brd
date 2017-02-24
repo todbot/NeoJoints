@@ -169,15 +169,15 @@
 <wire x1="0" y1="14.5" x2="2.3" y2="17.1" width="0.0254" layer="20" curve="-90"/>
 <wire x1="15.9" y1="4" x2="13" y2="4.4" width="0.0254" layer="20"/>
 <wire x1="13" y1="4.4" x2="11" y2="2.7" width="0.0254" layer="20" curve="97.57"/>
-<wire x1="11.3" y1="0" x2="22" y2="0" width="0" layer="49" style="shortdash"/>
-<wire x1="16.7" y1="5.2" x2="16.7" y2="-2.8" width="0.002540625" layer="49" style="shortdash"/>
+<wire x1="11.3" y1="0" x2="18" y2="0" width="0" layer="49" style="shortdash"/>
+<wire x1="16.7" y1="5.2" x2="16.7" y2="-0.8" width="0.002540625" layer="49" style="shortdash"/>
 <wire x1="21" y1="11" x2="-6" y2="11" width="0.002540625" layer="49" style="longdash"/>
-<wire x1="5.5" y1="19" x2="5.5" y2="-3" width="0.002540625" layer="49" style="longdash"/>
+<wire x1="5.5" y1="19" x2="5.5" y2="-2" width="0.002540625" layer="49" style="longdash"/>
 <wire x1="5.4" y1="2.7" x2="-0.8" y2="17.6" width="0.002540625" layer="49" style="shortdash" curve="223.875648"/>
 <wire x1="5.460615625" y1="11.01256875" x2="22.311278125" y2="8.764209375" width="0.002540625" layer="49" style="shortdash"/>
 <wire x1="18.895365625" y1="3.624675" x2="0.062271875" y2="6.13754375" width="0.002540625" layer="49" style="shortdash"/>
 <wire x1="19.32533125" y1="14.87581875" x2="0.4922375" y2="17.388690625" width="0.002540625" layer="49" style="shortdash"/>
-<wire x1="-1.98190625" y1="19.537384375" x2="21.730909375" y2="-7.549553125" width="0" layer="49" style="shortdash"/>
+<wire x1="-1.98190625" y1="19.537384375" x2="17.430909375" y2="-2.649553125" width="0" layer="49"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
