@@ -18,6 +18,8 @@ NeoJoints have the following features
 * Available in multiple angles
 * Solderable holes for adding additional power at joints
 * Cuttable trace on data line for separating strips logically
+* Mounting hole for 2-56 screw
+* Single-sided millable on PCB mill like Othermill
 
 Originally from 5 Jun 2015 task for "Mill-a-Week": https://github.com/todbot/Mill-a-Week
 
