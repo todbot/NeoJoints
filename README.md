@@ -1,12 +1,61 @@
+<img src="./docs/neojoints-blink1-demo.jpg">
+
 # NeoJoints
 Neopixel Joints, millable on the Othermill
 
-Originally from "Mill-a-Week": https://github.com/todbot/Mill-a-Week
 
+## What are these?
+NeoJoints make it easy to solder together pieces of WS2812 / NeoPixel-style
+LED strip.
+
+NeoJoints have the following features
+* Available in multiple angles
+* Solderable holes for adding additional power at joints
+* Cuttable trace on data line for separating strips logically
+
+Originally from "Mill-a-Week": https://github.com/todbot/Mill-a-Week
 ![](https://c1.staticflickr.com/1/453/17888242663_c46d147722_n.jpg)
 
 
-Available NeoJoints:
 
-* NeoJointV2-090 -- 90-degree right angle
-![](./NeoJointsV2/)
+## Available NeoJoints
+
+* ** NeoJointV2-090 **
+    - 90-degree right angle
+
+    <img src="./NeoJointsV2/NeoJointV2A-090.png" width=200>
+
+* ** NeoJointV2-082p43  **
+    - 82.43-degree right angle, for inner angle of segment display
+
+    <img src="./NeoJointsV2/NeoJointV2A-082p43.png" width=200>
+
+* ** NeoJointV2-097p57  **
+    - 97.57-degree right angle, for outer angle of segment display
+
+    <img src="./NeoJointsV2/NeoJointV2A-097p57.png" width=200>
+
+* more coming...
+
+
+## How to Solder
+
+* Step 1: Get NeoJoint and LED strip pieces laid out correctly
+  - Be sure to make sure data arrows are pointing correctly
+
+  <img src="./docs/neojoint-solder-step1.jpg" width=650>
+
+
+* Step 2: Turn over strips, put small solder blobs on *back* of each pad
+  - Depending on the strip, you may need to scratch away adhesive layer or waterproofing
+
+  <img src="./docs/neojoint-solder-step2.jpg" width=650>
+
+* Step 3: Lay strip on top of NeoJoint, then heat up with soldering iron to melt solder blobs, one by one
+
+<img src="./docs/neojoint-solder-step3.jpg" width=650>
+
+
+* Step 4: Continue until you've soldered down all points
+
+<img src="./docs/neojoint-solder-step4.jpg" width=650>
