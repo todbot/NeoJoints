@@ -32,6 +32,11 @@ Originally from "Mill-a-Week": https://github.com/todbot/Mill-a-Week
 
     <img src="./NeoJointsV2/NeoJointV2A-090.png" width=200>
 
+* ** NeoJointV2-180 **
+    - 180-degree straight joint
+
+    <img src="./NeoJointsV2/NeoJointV2A-180.png" width=200>
+
 * ** NeoJointV2-082p43  **
     - 82.43-degree right angle, for inner angle of segment display
 
