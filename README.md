@@ -27,22 +27,22 @@ Originally from "Mill-a-Week": https://github.com/todbot/Mill-a-Week
 
 ## Available NeoJoints
 
-* ** NeoJointV2-090 **
+* **NeoJointV2-090**
     - 90-degree right angle
 
     <img src="./NeoJointsV2/NeoJointV2A-090.png" width=200>
 
-* ** NeoJointV2-180 **
+* **NeoJointV2-180**
     - 180-degree straight joint
 
     <img src="./NeoJointsV2/NeoJointV2A-180.png" width=200>
 
-* ** NeoJointV2-082p43  **
+* **NeoJointV2-082p43**
     - 82.43-degree right angle, for inner angle of segment display
 
     <img src="./NeoJointsV2/NeoJointV2A-082p43.png" width=200>
 
-* ** NeoJointV2-097p57  **
+* **NeoJointV2-097p57**
     - 97.57-degree right angle, for outer angle of segment display
 
     <img src="./NeoJointsV2/NeoJointV2A-097p57.png" width=200>
