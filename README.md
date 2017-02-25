@@ -3,7 +3,13 @@
 # NeoJoints
 Neopixel Joints, millable on the Othermill
 
+Table of Contents
+=================
 
+  * [What are these?](#what-are-these)
+  * [Available NeoJoints](#available-neojoints)
+  * [How to Solder](#how-to-solder)
+      
 ## What are these?
 NeoJoints make it easy to solder together pieces of WS2812 / NeoPixel-style
 LED strip.
@@ -14,6 +20,7 @@ NeoJoints have the following features
 * Cuttable trace on data line for separating strips logically
 
 Originally from "Mill-a-Week": https://github.com/todbot/Mill-a-Week
+
 ![](https://c1.staticflickr.com/1/453/17888242663_c46d147722_n.jpg)
 
 
@@ -52,10 +59,13 @@ Originally from "Mill-a-Week": https://github.com/todbot/Mill-a-Week
   <img src="./docs/neojoint-solder-step2.jpg" width=650>
 
 * Step 3: Lay strip on top of NeoJoint, then heat up with soldering iron to melt solder blobs, one by one
+  - Take care to keep strip aligned when melting first solder blob
 
 <img src="./docs/neojoint-solder-step3.jpg" width=650>
 
 
 * Step 4: Continue until you've soldered down all points
+  - You can look along the side of the strip to see if the solder has melted
+  - And you can see if you have any solder bridges
 
 <img src="./docs/neojoint-solder-step4.jpg" width=650>
