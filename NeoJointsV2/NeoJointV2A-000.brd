@@ -151,7 +151,7 @@
 </layers>
 <board>
 <plain>
-<text x="-1.945" y="2.667" size="0.6096" layer="21" rot="R90">NeoJointV2A-180</text>
+<text x="-1.945" y="2.667" size="0.6096" layer="21" rot="R90">NeoJointV2A-000</text>
 <wire x1="0" y1="0" x2="10.033" y2="0" width="0.0254" layer="20"/>
 <wire x1="10.033" y1="0" x2="11" y2="0" width="0.0254" layer="20"/>
 <wire x1="0" y1="0" x2="0" y2="8.9" width="0.0254" layer="20"/>

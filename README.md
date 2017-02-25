@@ -19,7 +19,7 @@ NeoJoints have the following features
 * Solderable holes for adding additional power at joints
 * Cuttable trace on data line for separating strips logically
 * Mounting hole for 2-56 screw
-* Single-sided millable on PCB mill like Othermill, 
+* Single-sided millable on PCB mill like Othermill,
     with a single 1/32" endmill (though adding 1/8" to cleanup helps)
 
 Originally from 5 Jun 2015 task for "Mill-a-Week": https://github.com/todbot/Mill-a-Week
@@ -35,10 +35,10 @@ Originally from 5 Jun 2015 task for "Mill-a-Week": https://github.com/todbot/Mil
 
     <img src="./NeoJointsV2/NeoJointV2A-090.png" width=200>
 
-* **NeoJointV2-180**
-    - 180-degree straight joint
+* **NeoJointV2-000**
+    - 0-degree straight joint
 
-    <img src="./NeoJointsV2/NeoJointV2A-180.png" width=200>
+    <img src="./NeoJointsV2/NeoJointV2A-000.png" width=200>
 
 * **NeoJointV2-082p43**
     - 82.43-degree right angle, for inner angle of segment display
