@@ -19,7 +19,7 @@ NeoJoints have the following features
 * Solderable holes for adding additional power at joints
 * Cuttable trace on data line for separating strips logically
 
-Originally from "Mill-a-Week": https://github.com/todbot/Mill-a-Week
+Originally from 5 Jun 2015 task for "Mill-a-Week": https://github.com/todbot/Mill-a-Week
 
 ![](https://c1.staticflickr.com/1/453/17888242663_c46d147722_n.jpg)
 
