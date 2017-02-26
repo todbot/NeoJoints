@@ -40,6 +40,11 @@ Originally from 5 Jun 2015 task for "Mill-a-Week": https://github.com/todbot/Mil
 
     <img src="./NeoJointsV2/NeoJointV2A-000.png" width=200>
 
+* **NeoJointV2-120**
+    - 120-degree straight joint
+
+    <img src="./NeoJointsV2/NeoJointV2A-120.png" width=200>
+
 * **NeoJointV2-082p43**
     - 82.43-degree right angle, for inner angle of segment display
 
