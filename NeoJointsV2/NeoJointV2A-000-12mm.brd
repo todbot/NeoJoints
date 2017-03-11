@@ -157,19 +157,18 @@
 <wire x1="0" y1="0" x2="0" y2="12" width="0.0254" layer="20"/>
 <text x="-1.143" y="2.667" size="0.6096" layer="21" rot="R90">todbot.com</text>
 <wire x1="11" y1="0" x2="10.033" y2="0" width="0.0254" layer="20"/>
-<wire x1="0.5" y1="18.9" x2="0.5" y2="-0.5" width="0" layer="48" style="longdash"/>
-<wire x1="11" y1="18.9" x2="11" y2="-0.5" width="0.002540625" layer="49" style="longdash"/>
+<wire x1="0.5" y1="15.9" x2="0.5" y2="-0.5" width="0" layer="48" style="longdash"/>
+<wire x1="11" y1="15.9" x2="11" y2="-0.5" width="0.002540625" layer="48" style="longdash"/>
 <wire x1="0" y1="12" x2="11" y2="12" width="0.0254" layer="20"/>
 <wire x1="11" y1="2.7" x2="11" y2="2.6" width="0.0254" layer="20"/>
 <wire x1="11" y1="2.6" x2="11" y2="0" width="0.0254" layer="20"/>
 <wire x1="11" y1="12" x2="11" y2="9.4" width="0.0254" layer="20"/>
-<wire x1="-2.382340625" y1="19.440915625" x2="14.588225" y2="2.070353125" width="0" layer="48" style="dashdot"/>
 <wire x1="17.739025" y1="4.33738125" x2="-3.045578125" y2="16.337375" width="0" layer="48" style="dashdot"/>
 <wire x1="11" y1="2.6" x2="11" y2="9.4" width="0.0254" layer="20"/>
-<wire x1="5.48445625" y1="23.618178125" x2="5.484459375" y2="-0.7818125" width="0" layer="48" style="dashdot"/>
+<wire x1="5.48445625" y1="15.618178125" x2="5.484459375" y2="-0.7818125" width="0" layer="48" style="dashdot"/>
 <circle x="5.5" y="11.4" radius="8.700571875" width="0.0254" layer="48"/>
 <wire x1="18.8" y1="11.4" x2="-5.2" y2="11.4" width="0" layer="48" style="dashdot"/>
-<dimension x1="11" y1="12" x2="11" y2="0" x3="19.999996875" y3="6" textsize="1" layer="48" width="0.06" visible="yes"/>
+<dimension x1="11" y1="12" x2="11" y2="0" x3="19.999996875" y3="6" textsize="1" layer="49" width="0.06" visible="yes"/>
 </plain>
 <libraries>
 <library name="todstuff">
