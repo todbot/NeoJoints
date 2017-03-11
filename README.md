@@ -41,17 +41,17 @@ Originally from 5 Jun 2015 task for "Mill-a-Week": https://github.com/todbot/Mil
     <img src="./NeoJointsV2/NeoJointV2A-000.png" width=200>
 
 * **NeoJointV2-120**
-    - 120-degree straight joint
+    - 120-degree joint
 
     <img src="./NeoJointsV2/NeoJointV2A-120.png" width=200>
 
 * **NeoJointV2-082p43**
-    - 82.43-degree right angle, for inner angle of segment display
+    - 82.43-degree angle, for inner angle of 7-segment-style display
 
     <img src="./NeoJointsV2/NeoJointV2A-082p43.png" width=200>
 
 * **NeoJointV2-097p57**
-    - 97.57-degree right angle, for outer angle of segment display
+    - 97.57-degree angle, for outer angle of 7-segment-style display
 
     <img src="./NeoJointsV2/NeoJointV2A-097p57.png" width=200>
 
