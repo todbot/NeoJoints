@@ -60,6 +60,18 @@ Originally from 5 Jun 2015 task for "Mill-a-Week": https://github.com/todbot/Mil
 
     <img src="./NeoJointsV2/NeoJointV2A-097p57.png" width=200>
 
+* **NeoJointV2-180-10mm**
+    - 180-degree angle, for putting serpentining strips
+
+    <img src="./NeoJointsV2/NeoJointV2A-180-10mm.png" width=200>
+
+
+* **NeoJointV2-180-20mm**
+    - 180-degree angle, for putting serpentining strips
+
+    <img src="./NeoJointsV2/NeoJointV2A-180-20mm.png" width=200>
+
+
 * more coming...
 
 

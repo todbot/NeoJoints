@@ -98,7 +98,7 @@
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -156,15 +156,18 @@
 <plain>
 <wire x1="0" y1="9.83" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="0" y1="2.54" x2="1.905" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="1.905" y1="0" x2="27.92" y2="0" width="0" layer="20"/>
-<wire x1="27.92" y1="0" x2="30.46" y2="2.54" width="0" layer="20" curve="90"/>
-<wire x1="30.46" y1="2.54" x2="30.46" y2="10.465" width="0" layer="20"/>
-<wire x1="30.46" y1="10.465" x2="28.555" y2="12.37" width="0" layer="20" curve="90"/>
-<wire x1="28.555" y1="12.37" x2="2.54" y2="12.37" width="0" layer="20"/>
+<wire x1="1.905" y1="0" x2="17.76" y2="0" width="0" layer="20"/>
+<wire x1="17.76" y1="0" x2="20.3" y2="2.54" width="0" layer="20" curve="90"/>
+<wire x1="20.3" y1="2.54" x2="20.3" y2="10.465" width="0" layer="20"/>
+<wire x1="20.3" y1="10.465" x2="18.395" y2="12.37" width="0" layer="20" curve="90"/>
+<wire x1="18.395" y1="12.37" x2="2.54" y2="12.37" width="0" layer="20"/>
 <wire x1="2.54" y1="12.37" x2="0" y2="9.83" width="0" layer="20" curve="90"/>
-<dimension x1="5.08" y1="8.56" x2="25.38" y2="8.56" x3="15.23" y3="13.335" textsize="0.6096" layer="48" width="0.0508" extwidth="0.1" visible="yes"/>
-<dimension x1="29.825" y1="12.37" x2="30.48" y2="0" x3="32.701696875" y3="6.185" textsize="0.6096" layer="48" dtype="vertical" width="0.0508" extwidth="0.1" visible="yes"/>
-<dimension x1="0" y1="11.43" x2="30.46" y2="11.43" x3="15.23" y3="15.875" textsize="0.6096" layer="48" dtype="horizontal" width="0.0508" extwidth="0.1" visible="yes"/>
+<dimension x1="5.08" y1="8.56" x2="15.22" y2="8.56" x3="10.15" y3="13.335" textsize="0.6096" layer="48" width="0.0508" extwidth="0.1" extlength="0.254" visible="yes"/>
+<dimension x1="19.665" y1="12.37" x2="20.32" y2="0" x3="22.541696875" y3="6.185" textsize="0.6096" layer="48" dtype="vertical" width="0.0508" extwidth="0.1" extlength="0.508" visible="yes"/>
+<dimension x1="0" y1="11.43" x2="20.3" y2="11.43" x3="10.15" y3="14.605" textsize="0.6096" layer="48" dtype="horizontal" width="0.0508" extwidth="0.1" extlength="0.508" visible="yes"/>
+<text x="8.89" y="8.382" size="0.6096" layer="125" ratio="20">J1</text>
+<text x="3.81" y="10.287" size="0.6096" layer="125" ratio="20">J2</text>
+<text x="16.51" y="11.557" size="0.6096" layer="125" ratio="20">J3</text>
 </plain>
 <libraries>
 <library name="NeoJoints">
@@ -401,20 +404,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </autorouter>
 <elements>
 <element name="U$1" library="NeoJoints" package="LEDSTRIP-3P" value="LED_STRIP_3P" x="5.08" y="5.08" rot="R90"/>
-<element name="U$2" library="NeoJoints" package="LEDSTRIP-3P" value="LED_STRIP_3P" x="25.4" y="5.08" rot="R270"/>
-<element name="J1" library="SparkFun-Connectors" package="1X01" value="" x="15.24" y="5.08"/>
-<element name="J2" library="SparkFun-Connectors" package="1X01" value="" x="15.24" y="8.89"/>
-<element name="J3" library="SparkFun-Connectors" package="1X01" value="" x="27.94" y="10.16"/>
+<element name="U$2" library="NeoJoints" package="LEDSTRIP-3P" value="LED_STRIP_3P" x="15.24" y="5.08" rot="R270"/>
+<element name="J1" library="SparkFun-Connectors" package="1X01" value="" x="10.16" y="6.985"/>
+<element name="J2" library="SparkFun-Connectors" package="1X01" value="" x="5.08" y="8.89"/>
+<element name="J3" library="SparkFun-Connectors" package="1X01" value="" x="17.78" y="10.16"/>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="U$1" pad="A"/>
 <contactref element="U$2" pad="A"/>
 <contactref element="J1" pad="1"/>
-<wire x1="7.73" y1="5.08" x2="15.24" y2="5.08" width="1.016" layer="1"/>
-<wire x1="15.24" y1="5.08" x2="16.51" y2="5.08" width="1.016" layer="1"/>
-<wire x1="16.51" y1="5.08" x2="22.75" y2="5.08" width="1.016" layer="1"/>
-<wire x1="15.24" y1="5.08" x2="16.51" y2="5.08" width="1.016" layer="1"/>
+<wire x1="10.16" y1="6.985" x2="10.16" y2="5.08" width="1.016" layer="1"/>
+<wire x1="10.16" y1="5.08" x2="12.59" y2="5.08" width="1.016" layer="1"/>
+<wire x1="10.16" y1="6.985" x2="10.16" y2="5.08" width="1.016" layer="1"/>
+<wire x1="7.73" y1="5.08" x2="10.16" y2="5.08" width="1.016" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$1" pad="B"/>
@@ -422,11 +425,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J2" pad="1"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="8.255" width="1.016" layer="1"/>
 <wire x1="5.08" y1="8.255" x2="6.35" y2="9.525" width="1.016" layer="1" curve="-90"/>
-<wire x1="6.35" y1="9.525" x2="15.24" y2="9.525" width="1.016" layer="1"/>
-<wire x1="15.24" y1="9.525" x2="24.13" y2="9.525" width="1.016" layer="1"/>
-<wire x1="24.13" y1="9.525" x2="25.4" y2="8.255" width="1.016" layer="1" curve="-90"/>
-<wire x1="25.4" y1="8.255" x2="25.4" y2="5.08" width="1.016" layer="1"/>
-<wire x1="15.24" y1="8.89" x2="15.24" y2="9.525" width="1.016" layer="1"/>
+<wire x1="6.35" y1="9.525" x2="5.08" y2="9.525" width="1.016" layer="1"/>
+<wire x1="5.08" y1="9.525" x2="13.97" y2="9.525" width="1.016" layer="1"/>
+<wire x1="13.97" y1="9.525" x2="15.24" y2="8.255" width="1.016" layer="1" curve="-90"/>
+<wire x1="15.24" y1="8.255" x2="15.24" y2="5.08" width="1.016" layer="1"/>
+<wire x1="5.08" y1="8.89" x2="5.08" y2="9.525" width="1.016" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$1" pad="C"/>
@@ -435,13 +438,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.45" y1="5.08" x2="2.45" y2="10.16" width="1.016" layer="1"/>
 <wire x1="2.45" y1="10.16" x2="3.72" y2="11.43" width="1.016" layer="1" curve="-90"/>
 <wire x1="3.72" y1="11.43" x2="7.62" y2="11.43" width="1.016" layer="1"/>
-<wire x1="7.62" y1="11.43" x2="26.67" y2="11.43" width="1.016" layer="1"/>
-<wire x1="26.67" y1="11.43" x2="26.76" y2="11.43" width="1.016" layer="1"/>
-<wire x1="26.76" y1="11.43" x2="28.03" y2="10.16" width="1.016" layer="1" curve="-90"/>
-<wire x1="28.03" y1="10.16" x2="28.03" y2="8.89" width="1.016" layer="1"/>
-<wire x1="28.03" y1="8.89" x2="28.03" y2="5.08" width="1.016" layer="1"/>
-<wire x1="27.94" y1="10.16" x2="28.03" y2="10.07" width="1.016" layer="1" curve="-90"/>
-<wire x1="28.03" y1="10.07" x2="28.03" y2="8.89" width="1.016" layer="1"/>
+<wire x1="7.62" y1="11.43" x2="16.51" y2="11.43" width="1.016" layer="1"/>
+<wire x1="16.51" y1="11.43" x2="16.6" y2="11.43" width="1.016" layer="1"/>
+<wire x1="16.6" y1="11.43" x2="17.87" y2="10.16" width="1.016" layer="1" curve="-90"/>
+<wire x1="17.87" y1="10.16" x2="17.87" y2="8.89" width="1.016" layer="1"/>
+<wire x1="17.87" y1="8.89" x2="17.87" y2="5.08" width="1.016" layer="1"/>
+<wire x1="17.78" y1="10.16" x2="17.87" y2="10.07" width="1.016" layer="1" curve="-90"/>
+<wire x1="17.87" y1="10.07" x2="17.87" y2="8.89" width="1.016" layer="1"/>
 </signal>
 </signals>
 </board>
